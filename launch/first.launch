@@ -1,0 +1,3 @@
+<launch>
+	<node name="commander_node" pkg="stdr_control" type="commander_node" />
+</launch>
