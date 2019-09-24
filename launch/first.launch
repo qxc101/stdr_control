@@ -1,3 +1,4 @@
 <launch>
-	<node name="commander_node" pkg="stdr_control" type="commander_node" />
+        <arg name="n" default="robot0"/>
+	<node name="commander_node" pkg="stdr_control" type="commander_node" args="$(arg n)"/>
 </launch>
